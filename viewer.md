@@ -24,4 +24,26 @@ zip파일을 다운후 이미지폴더를 해당 프로젝트 리포지토토리
 
 ### 5단계 ImageFileInfo 모델
 
-![image](https://github.com/qkrgudals1030/viewer/assets/50895124/c45c7247-b840-4b14-9a9d-ffda77e59621)
+1. 프로젝트 노드에서 새로운 Midl(.idl)파일을 선택후 이름을 ImageFileInfo.idl로 설정하고 추가를 클릭합니다.
+  
+2. ImageFileInfo.idl의 코드목록을 변경후 프로젝트를 빌드합니다. 빌드하면 일부 파일이 생성됩니다.
+  
+3. 생성된 파일을 생성한 프로젝트에 붙여넣어줍니다.
+![image](https://github.com/qkrgudals1030/viewer/assets/50895124/afc2ebd3-4935-4a78-830f-56e776466348)
+
+
+4. 붙여넣어준 파일을 프로젝트에 포함을 클릭하여 포함시켜 줍니다.
+
+![image](https://github.com/qkrgudals1030/viewer/assets/50895124/2764c2dc-c948-4af9-b062-56f2f09d306f)
+
+5. pch.h 파일 끝에 다음 필수 포함을 추가합니다.
+![image](https://github.com/qkrgudals1030/viewer/assets/50895124/8b112930-e278-4e7b-9752-75ed51e710f7)
+
+6. ImageFileInfo.h의 콘텐츠를 아래 코드 목록으로 바꿉니다.
+
+![image](https://github.com/qkrgudals1030/viewer/assets/50895124/754c9e77-96c4-4a38-a034-ba599fcb47aa)
+
+
+7. ImageFileInfo.cpp의 콘텐츠를 아래 코드 목록으로 바꿉니다.
+
+![image](https://github.com/qkrgudals1030/viewer/assets/50895124/1823070e-f6ce-4208-813e-08e3f057f700)
