@@ -14,7 +14,8 @@ zip파일을 다운후 이미지폴더를 해당 프로젝트 리포지토토리
 
 ![image](https://github.com/qkrgudals1030/viewer/assets/50895124/9dc9dc76-b0e5-4708-bf18-2adb0e652830)
 
-![image](https://github.com/qkrgudals1030/viewer/assets/50895124/339c816a-5285-413f-bbfd-f4e4e44cf91f)
+![image](https://github.com/qkrgudals1030/viewer/assets/50895124/5c33234a-19fb-4eb4-ac1b-fd02f9e672ad)
+
 
 ### 4단계 GridView 컨트롤 추가
 
@@ -37,6 +38,7 @@ zip파일을 다운후 이미지폴더를 해당 프로젝트 리포지토토리
 ![image](https://github.com/qkrgudals1030/viewer/assets/50895124/2764c2dc-c948-4af9-b062-56f2f09d306f)
 
 5. pch.h 파일 끝에 다음 필수 포함을 추가합니다.
+
 ![image](https://github.com/qkrgudals1030/viewer/assets/50895124/8b112930-e278-4e7b-9752-75ed51e710f7)
 
 6. ImageFileInfo.h의 콘텐츠를 아래 코드 목록으로 바꿉니다.
@@ -47,3 +49,36 @@ zip파일을 다운후 이미지폴더를 해당 프로젝트 리포지토토리
 7. ImageFileInfo.cpp의 콘텐츠를 아래 코드 목록으로 바꿉니다.
 
 ![image](https://github.com/qkrgudals1030/viewer/assets/50895124/1823070e-f6ce-4208-813e-08e3f057f700)
+
+### 6단계 이미지 컬렉션에 대한 속성 정의 및 채우기
+
+![image](https://github.com/qkrgudals1030/viewer/assets/50895124/8b4d8dac-528e-4d3d-bb82-5996b3b5227d)
+
+XAML UI에서 Images 속성을 참조할 예정입니다. 이러한 이유로 Microsoft는 MainWindow 클래스에 대한 IDL 파일에서 Images 속성을 선언해야 합니다.
+
+메서드 선언 및 정의를 MainWindow.xaml.h 및 MainWindow.xaml.cpp에 붙여넣습니다.
+
+![image](https://github.com/qkrgudals1030/viewer/assets/50895124/d38e50c2-6361-4fa4-b4e4-6447d03106a1)
+
+
+![image](https://github.com/qkrgudals1030/viewer/assets/50895124/79b265bb-8a67-47fd-8d1b-00e8e690b858)
+
+
+### 7단계: 데이터 템플릿 추가
+
+![image](https://github.com/qkrgudals1030/viewer/assets/50895124/f081f2f6-f198-4c5e-b78c-7deb8c38e7bd)
+
+먼저 스케치처럼 보이는 자리 표시자 데이터 템플릿을 사용하겠습니다. 레이아웃 옵션 탐색을 완료할 때까지 사용됩니다. 그 후에는 데이터 템플릿을 업데이트하여 실제 사진을 표시할 수 있습니다.
+
+### 결과 화면
+
+![image](https://github.com/qkrgudals1030/viewer/assets/50895124/bf022f0e-1b4f-465d-a9fe-09f017b01464)
+
+![image](https://github.com/qkrgudals1030/viewer/assets/50895124/fcff6641-02ae-4ad6-b51a-53fcbccda036)
+
+
+
+
+
+
+
